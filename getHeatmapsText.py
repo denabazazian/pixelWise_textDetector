@@ -68,7 +68,7 @@ for idx in range(0,len(val)):
     for ii in range(0,2):    
         heatMap[:,:,ii] = scores_exp[ii,:,:]/sum_exp
 
-    #Show the heatmap in super impose mose
+    #Show the super imposed heatmap of a source image
     plt.imshow(heatMap[:,:,0]);plt.imshow(im,alpha=.5);plt.title('Background'); plt.show()
     plt.imshow(heatMap[:,:,1]);plt.imshow(im,alpha=.5);plt.title('Text'); plt.show()
     
@@ -77,3 +77,12 @@ print 'Total time elapsed in heatmap computations'
 print(end - start)
 print 'Time per image'
 print(end - start)/val.__len__()
+
+
+
+
+
+
+
+
+
