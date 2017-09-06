@@ -1,8 +1,10 @@
 # pixelWise_textDetector
 
-- A CAFFE training model for pixel-wise detecting text and non-text regions in natural scen images <br />
+- A CAFFE training model for pixel-wise detecting text and non-text regions in natural scen images. <br />
 
-- The training framework is based on a Fully convolutional Network (FCN) <br />
+- The training framework is based on a Fully convolutional Network (FCN). <br />
+
+- Evaluation of the net by generating the heatmaps.  <br />
  
 ## Citation
 Please cite this work in your publications if it helps your research: <br />
